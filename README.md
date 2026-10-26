@@ -52,6 +52,7 @@ Put them together and you get the **governance intensity**: light, standard, enh
 | [EU AI Act Risk Check](https://github.com/gifmaster/ai-act-risk-check) | Classify an AI system with transparent, cited rules. Used at the classification step of the lifecycle. |
 | [AI Contract Clause Checker](https://github.com/gifmaster/contract-clause-checker) | Review AI and SaaS vendor contracts before you buy. Supports indicator *AI in procurement*. |
 | [AI Use Case Register](https://github.com/gifmaster/ai-use-case-register) | The register template as a working tool: calculated governance intensity, health checks, AI Council review |
+| [Regulation Navigator](https://github.com/gifmaster/regulation-navigator) | See which of the AI Act, GDPR, NIS2 and DORA apply, and where they overlap |
 | This framework | The organisation around it: policy, roles, process, evidence |
 
 ## What is not included

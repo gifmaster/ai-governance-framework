@@ -50,6 +50,7 @@ Put them together and you get the **governance intensity**: light, standard, enh
 | | |
 |---|---|
 | [EU AI Act Risk Check](https://github.com/gifmaster/ai-act-risk-check) | Classify an AI system with transparent, cited rules. Used at the classification step of the lifecycle. |
+| [AI Contract Clause Checker](https://github.com/gifmaster/contract-clause-checker) | Review AI and SaaS vendor contracts before you buy. Supports indicator *AI in procurement*. |
 | This framework | The organisation around it: policy, roles, process, evidence |
 
 ## What is not included

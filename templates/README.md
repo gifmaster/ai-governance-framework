@@ -11,3 +11,5 @@
 | [Backlog items](backlog-items.md) | Governance work as ready-made agile enablers | 3 to 6 |
 
 The fields in the intake form match the columns in the register, so an intake can be pasted straight into the register.
+
+Prefer a working tool? The [AI Use Case Register](https://ai-use-case-register.streamlit.app) uses exactly the same columns, calculates the governance intensity, runs a health check on the whole register and produces the AI Council's quarterly review.

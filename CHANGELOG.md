@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1 (October 2026)
+
+Connects the framework to the tools and to the other laws that meet AI.
+
+- Regulatory map: NIS2 (Danish implementation) and DORA, a table of where the laws overlap, and an overview of incident reporting deadlines under GDPR, NIS2, DORA and the AI Act
+- Danish authorities: Styrelsen for Samfundssikkerhed (NIS2) and Finanstilsynet (DORA) added
+- Incident report template: NIS2 and DORA notification checks, GDPR Art. 34
+- Lifecycle, 90-day plan, oversight scale and templates now point to the tool for each step: EU AI Act Risk Check, AI Contract Clause Checker (with DORA pack), AI Use Case Register and Regulation Navigator
+- README: toolkit descriptions updated, Danish summary extended
+
 ## 1.0 (October 2026)
 
 First public version.

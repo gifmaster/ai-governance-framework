@@ -6,7 +6,7 @@
 |---|---|
 | Incident ID | |
 | Reported by | |
-| Date and time noticed | |
+| Date and time noticed (most reporting clocks start here) | |
 | Use case ID and name | |
 | AI system | |
 
@@ -36,9 +36,15 @@ How many people or cases are affected?
 
 | Check | Yes / No / N.A. | Done on |
 |---|---|---|
+Several clocks can run at once. The Incident Clock in the [Regulation Navigator](https://regulation-navigator.streamlit.app) lists every deadline for your incident, in order.
+
+| Check | Yes / No / N.A. | Done on |
+|---|---|---|
 | Personal data breach? Notify Datatilsynet within 72 hours *(GDPR Art. 33)* | | |
-| High-risk system and a **serious incident**? Inform the provider, then the authorities *(AI Act Art. 26(5), Art. 73)* | | |
-| Affected people need to be informed? | | |
+| High risk to the people affected? Tell them without undue delay *(GDPR Art. 34)* | | |
+| Significant incident and you are covered by NIS2? Early warning to the Danish CSIRT within 24 hours, notification within 72 hours, final report within one month *(NIS2 Art. 23(4))* | | |
+| Major ICT-related incident and you are covered by DORA? Initial notification to Finanstilsynet within 4 hours of classifying it as major and no later than 24 hours after becoming aware, intermediate report within 72 hours, final report within one month *(DORA Art. 19)* | | |
+| High-risk system and a **serious incident**? Inform the provider immediately, who reports to the authorities *(AI Act Art. 26(5), Art. 73, from 2 Dec 2027)* | | |
 | Vendor informed? | | |
 
 > When in doubt about notification duties, contact the DPO or legal the same day.

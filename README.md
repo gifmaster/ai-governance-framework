@@ -13,7 +13,7 @@ Most AI governance material is written for large enterprises with compliance dep
 
 | | |
 |---|---|
-| **[Framework](framework/)** | The model: principles, five dimensions, the AI Oversight Scale, the use case lifecycle, roles and RACI, and a regulatory map |
+| **[Framework](framework/)** | The model: principles, five dimensions, the AI Oversight Scale, the use case lifecycle, roles and RACI, and a regulatory map covering the AI Act, GDPR, NIS2 and DORA, with overlaps and incident deadlines |
 | **[Agile playbook](playbook/agile-governance.md)** | How to run AI governance inside Scrum and SAFe, instead of as a gate at the end |
 | **[Templates](templates/)** | AI policy, AI Council charter, use case intake, AI register, AI system record, incident report, backlog items |
 | **[Getting started](docs/getting-started.md)** | A 90-day plan from "we use AI" to "we govern AI" |
@@ -41,6 +41,7 @@ Put them together and you get the **governance intensity**: light, standard, enh
 
 - **EU AI Act**, Regulation (EU) 2024/1689, as amended by the Digital Omnibus on AI, Regulation (EU) 2026/1744
 - **GDPR** and the Danish implementation of the AI Act
+- **NIS2** (Danish implementation) and **DORA**, where they apply
 - **ISO/IEC 42001** (mapped clause by clause)
 - **AIGA Hourglass Model** of organisational AI governance (University of Turku)
 - **NIST AI RMF** and **OWASP** guidance, where useful
@@ -50,9 +51,9 @@ Put them together and you get the **governance intensity**: light, standard, enh
 | | |
 |---|---|
 | [EU AI Act Risk Check](https://github.com/gifmaster/ai-act-risk-check) | Classify an AI system with transparent, cited rules. Used at the classification step of the lifecycle. |
-| [AI Contract Clause Checker](https://github.com/gifmaster/contract-clause-checker) | Review AI and SaaS vendor contracts before you buy. Supports indicator *AI in procurement*. |
+| [AI Contract Clause Checker](https://github.com/gifmaster/contract-clause-checker) | Review AI and SaaS vendor contracts before you buy, with a DORA pack for financial entities. Supports indicator *AI in procurement*. |
 | [AI Use Case Register](https://github.com/gifmaster/ai-use-case-register) | The register template as a working tool: calculated governance intensity, health checks, AI Council review |
-| [Regulation Navigator](https://github.com/gifmaster/regulation-navigator) | See which of the AI Act, GDPR, NIS2 and DORA apply, and where they overlap |
+| [Regulation Navigator](https://github.com/gifmaster/regulation-navigator) | See which of the AI Act, GDPR, NIS2 and DORA apply, where they overlap, and every incident deadline in the Incident Clock |
 | This framework | The organisation around it: policy, roles, process, evidence |
 
 ## What is not included
@@ -75,7 +76,11 @@ Rammen stiller to spørgsmål til hver anvendelse: **Hvad bruges AI'en til?** (r
 
 Indhold: principper, fem dimensioner (governance, mennesker, processer, teknologi og kultur), en livscyklus med fem beslutningspunkter, roller og RACI, en kobling til AI-forordningen og ISO/IEC 42001, en playbook til at drive AI governance i Scrum og SAFe, skabeloner og en 90-dages plan.
 
-Danske myndigheder for AI-forordningen er Digitaliseringsstyrelsen, Datatilsynet og Domstolsstyrelsen.
+Rammen kobler også AI-forordningen til GDPR, NIS2 og DORA: hvor de overlapper, og hvilke indberetningsfrister der starter, når noget går galt.
+
+Danske myndigheder for AI-forordningen er Digitaliseringsstyrelsen, Datatilsynet og Domstolsstyrelsen. For NIS2 er det Styrelsen for Samfundssikkerhed og sektormyndighederne, og for DORA Finanstilsynet.
+
+Rammen hænger sammen med fire gratis værktøjer: EU AI Act Risk Check, AI Contract Clause Checker, AI Use Case Register og Regulation Navigator.
 
 Materialet er på engelsk og må frit bruges og tilpasses med kildeangivelse.
 

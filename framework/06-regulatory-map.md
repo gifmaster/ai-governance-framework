@@ -27,10 +27,39 @@ If you **build** an AI system, or substantially modify one, or put your name on 
 
 Dates for high-risk systems listed in Annex III. High-risk AI in products covered by Annex I applies from 2 Aug 2028.
 
-### Other law
+### Other law that meets AI
 
-- **GDPR.** Most AI use cases process personal data. Lawful basis, DPIA (Art. 35), rules on automated decisions (Art. 22) and transparency (Arts. 13 and 14) still apply in full.
-- **Sector rules.** Financial services (DORA, consumer credit), medical devices (MDR), employment law and collective agreements can add requirements.
+Most organisations meet AI governance through several laws at once. Check which apply with the [Regulation Navigator](https://regulation-navigator.streamlit.app).
+
+- **GDPR**, Regulation (EU) 2016/679. Most AI use cases process personal data. Lawful basis, DPIA (Art. 35), rules on automated decisions (Art. 22) and transparency (Arts. 13 and 14) still apply in full.
+- **NIS2**, Directive (EU) 2022/2555, in Denmark implemented by Act No. 434 of 2025 (most sectors), Act No. 258 of 2025 (energy) and Act No. 435 of 2025 (telecom). Applies to medium-sized and large entities in the sectors in Annexes I and II, and to some entities regardless of size. In Denmark the size threshold does not apply to energy and telecom companies. Key duties: register with the authorities, management approval of and training in cybersecurity measures (Art. 20), minimum security measures including supply chain security (Art. 21(2)), and incident reporting (Art. 23). AI vendors are part of the supply chain.
+- **DORA**, Regulation (EU) 2022/2554, applies from 17 January 2025 to financial entities such as banks, insurers, pension funds and investment firms, with some exemptions. For these entities DORA applies instead of NIS2. Every AI tool a financial entity buys is an ICT service: it belongs in the register of information (Art. 28(3)), its contract must contain the key provisions of Art. 30, there must be an exit strategy (Art. 28(8)), and major ICT-related incidents are reported to Finanstilsynet (Art. 19). Check contracts with the DORA pack in the [AI Contract Clause Checker](https://contract-clause-checker.streamlit.app).
+- **Sector rules.** Consumer credit, medical devices (MDR), employment law and collective agreements can add requirements.
+
+### Where the laws overlap
+
+One piece of work can serve several laws. This is where most of the saving is for a small organisation.
+
+| Overlap | What to do once | Sources |
+|---|---|---|
+| DPIA and high-risk AI | Do the DPIA with the AI provider's instructions for use in hand, not as a separate project | AI Act Art. 26(9); GDPR Art. 35 |
+| FRIA and DPIA | Run the fundamental rights impact assessment and the DPIA as one piece of work | AI Act Art. 27(4); GDPR Art. 35 |
+| AI vendor contracts | Review each AI contract once against DORA, GDPR and the AI Act | DORA Art. 30; GDPR Art. 28; AI Act Art. 26 |
+| Supply chain | Keep one register of AI use cases and vendors for AI governance and NIS2 supply chain security | NIS2 Art. 21(2)(d); AI Act Art. 26 |
+| Management training | Combine training on cyber and ICT risk with AI literacy | NIS2 Art. 20(2); DORA Art. 5(4); AI Act Art. 4 |
+| Automated decisions | Design one human review step that meets GDPR Art. 22 and AI Act human oversight | GDPR Art. 22; AI Act Art. 14, 26(2), 86 |
+| Log retention | Set and document one retention period: at least six months under the AI Act, no longer than necessary under GDPR | AI Act Art. 26(6); GDPR Art. 5(1)(e) |
+
+### One incident, several clocks
+
+An incident involving an AI system can be a personal data breach, a significant NIS2 incident, a major DORA incident and a serious AI incident at the same time. Each has its own deadline, counted from a different moment, and its own recipient. Agree in advance who reports what, and test it. The Incident Clock in the [Regulation Navigator](https://regulation-navigator.streamlit.app) lists every deadline that starts, in order.
+
+| Regulation | Report | Deadline | To |
+|---|---|---|---|
+| GDPR | Personal data breach | 72 hours after becoming aware (Art. 33); people affected without undue delay if high risk (Art. 34) | Datatilsynet |
+| NIS2 | Early warning, notification, final report | 24 hours, 72 hours, then one month after the notification (Art. 23(4)) | The Danish CSIRT, via the national reporting solution |
+| DORA | Initial, intermediate, final report | 4 hours after classifying the incident as major and no later than 24 hours after becoming aware, then 72 hours, then one month (Art. 19; Delegated Regulation (EU) 2025/301 Art. 5) | Finanstilsynet |
+| AI Act | Serious incident | Deployers inform the provider immediately (Art. 26(5)). The provider reports within 15 days, 2 days if widespread, 10 days on death (Art. 73). From 2 Dec 2027 for Annex III systems | Market surveillance authority |
 
 ### Danish authorities
 
@@ -41,6 +70,13 @@ Under the Danish act supplementing the AI Act (in force 2 Aug 2025):
 | **Digitaliseringsstyrelsen** (Agency for Digital Government) | Notifying authority, market surveillance authority and single point of contact |
 | **Datatilsynet** (Data Protection Authority) | Market surveillance authority, and the GDPR regulator |
 | **Domstolsstyrelsen** (Court Administration) | Market surveillance authority for its area |
+
+Other Danish authorities you may meet:
+
+| Authority | Role |
+|---|---|
+| **Styrelsen for Samfundssikkerhed** (Agency for Civil Protection and Emergency Management) | Central NIS2 authority, alongside sector authorities |
+| **Finanstilsynet** (Financial Supervisory Authority) | DORA supervisor for financial entities |
 
 ## Tier 2: International standards (should)
 
@@ -73,4 +109,4 @@ AI security testing itself is out of scope for this framework. Bring in a specia
 
 ---
 
-*Checked against the law as of October 2026. This is a practical map, not legal advice.*
+*Checked against the law as of October 2026. Digital Omnibus proposals for GDPR and a single incident reporting point are not included until adopted. This is a practical map, not legal advice.*

@@ -48,4 +48,4 @@ Put the two questions together and you get the **governance intensity** of a use
 - **Redesign.** A high-risk system needs effective human oversight (Art. 14 and Art. 26(2)), which is very hard to show when the AI acts on its own. This framework therefore treats a high-risk use case at level 5 as a design problem: lower the oversight level before going further.
 - **Stop.** Prohibited under Art. 5. Do not use.
 
-Use the [EU AI Act Risk Check](https://ai-act-risk-check.streamlit.app) to find the risk tier, and the [use case intake template](../templates/use-case-intake.md) to record the oversight level.
+Use the [EU AI Act Risk Check](https://ai-act-risk-check.streamlit.app) to find the risk tier, and the [use case intake template](../templates/use-case-intake.md) to record the oversight level. The [AI Use Case Register](https://ai-use-case-register.streamlit.app) calculates the intensity for you and flags entries where the recorded intensity is wrong.

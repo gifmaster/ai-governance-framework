@@ -25,12 +25,12 @@ flowchart LR
 | # | Stage | What happens | Output |
 |---|---|---|---|
 | 1 | **Idea** | Someone sees a use for AI. | A one-line description |
-| 2 | **Intake** | The use case owner fills in the intake form: purpose, users, data, vendor, expected oversight level. | [Use case intake](../templates/use-case-intake.md), entry in the [AI register](../templates/ai-register.csv) |
-| 3 | **Classify** | Determine the role (deployer or provider), the EU AI Act risk tier and the oversight level. Together they give the governance intensity. | Classification on record, intensity set |
-| 4 | **Design or select** | Build the solution or pick the vendor. For bought tools: check the vendor's documentation, data processing terms and instructions for use. | Vendor or design decision |
+| 2 | **Intake** | The use case owner fills in the intake form: purpose, users, data, vendor, expected oversight level. | [Use case intake](../templates/use-case-intake.md), entry in the [AI register](../templates/ai-register.csv) or the [AI Use Case Register](https://ai-use-case-register.streamlit.app) |
+| 3 | **Classify** | Determine the role (deployer or provider), the EU AI Act risk tier and the oversight level. Together they give the governance intensity. Check which other laws apply (GDPR, NIS2, DORA). | Classification on record, intensity set. Tools: [EU AI Act Risk Check](https://ai-act-risk-check.streamlit.app), [Regulation Navigator](https://regulation-navigator.streamlit.app) |
+| 4 | **Design or select** | Build the solution or pick the vendor. For bought tools: check the vendor's documentation, data processing terms and instructions for use. Financial entities also check the DORA contract terms. | Vendor or design decision. Tool: [AI Contract Clause Checker](https://contract-clause-checker.streamlit.app) |
 | 5 | **Assess** | Assessments required by the intensity: DPIA, fundamental rights impact assessment, testing, plan for human oversight. | [AI system record](../templates/ai-system-record.md) |
-| 6 | **Operate and monitor** | Run the system, keep logs, review samples and exceptions as set by the oversight level, train users. | Monitoring notes, log retention |
-| 7 | **Respond** | Something goes wrong. Contain it, inform the right people, learn from it. | [Incident report](../templates/incident-report.md) |
+| 6 | **Operate and monitor** | Run the system, keep logs, review samples and exceptions as set by the oversight level, train users. | Monitoring notes, log retention, register health check in the [AI Use Case Register](https://ai-use-case-register.streamlit.app) |
+| 7 | **Respond** | Something goes wrong. Contain it, inform the right people, learn from it. | [Incident report](../templates/incident-report.md), every reporting deadline in the Incident Clock of the [Regulation Navigator](https://regulation-navigator.streamlit.app) |
 | 8 | **Retire** | Switch off, inform users, keep records for the required period, update the register. | Register entry closed |
 
 ## Gates

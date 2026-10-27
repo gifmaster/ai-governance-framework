@@ -1,7 +1,7 @@
 # Practical AI Governance Framework
 
 [![checks](https://github.com/gifmaster/ai-governance-framework/actions/workflows/checks.yml/badge.svg)](https://github.com/gifmaster/ai-governance-framework/actions/workflows/checks.yml)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 **A fit-for-purpose AI governance framework for small and mid-sized organisations in the EU.** Built around the EU AI Act, made to work inside the way teams already work.
 
@@ -62,7 +62,7 @@ This repository is the open part of an advisory method. The scored maturity asse
 
 ## Using it
 
-Copy what you need. Adapt it. You are free to use, change and share this material, including commercially, as long as you credit the source (CC BY 4.0, see below).
+Copy what you need. Adapt it. You are free to use, change and share this material inside your own organisation, as long as you credit the source. Using it in paid services or products, such as consulting, training, audits or software, needs written permission (CC BY-NC-SA 4.0, see below).
 
 Found a mistake, or have a suggestion? [Open an issue](https://github.com/gifmaster/ai-governance-framework/issues).
 
@@ -82,7 +82,7 @@ Danske myndigheder for AI-forordningen er Digitaliseringsstyrelsen, Datatilsynet
 
 Rammen hænger sammen med fire gratis værktøjer: EU AI Act Risk Check, AI Contract Clause Checker, AI Use Case Register og Regulation Navigator.
 
-Materialet er på engelsk og må frit bruges og tilpasses med kildeangivelse.
+Materialet er på engelsk og må frit bruges og tilpasses i egen organisation med kildeangivelse. Brug i betalte ydelser eller produkter, fx rådgivning, kurser, audits eller software, kræver skriftlig tilladelse.
 
 ## About
 
@@ -93,6 +93,8 @@ Need help putting it into practice? Get in touch.
 
 ## License
 
-[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Credit: *"Practical AI Governance Framework" by Alexander Senderovitz, CC BY 4.0.*
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](LICENSE.md). Credit: *"Practical AI Governance Framework" by Alexander Senderovitz, CC BY-NC-SA 4.0.*
+
+Free to use inside your own organisation. Using it in paid services or products needs permission: [alexander@senderovitz.eu](mailto:alexander@senderovitz.eu).
 
 This framework is practical guidance, not legal advice.

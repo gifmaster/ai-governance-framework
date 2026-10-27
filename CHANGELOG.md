@@ -1,5 +1,9 @@
 # Changelog
 
+## License change (October 2026)
+
+- License changed from CC BY 4.0 to CC BY-NC-SA 4.0: free to use inside your own organisation, permission needed for use in paid services or products. Earlier versions stay under CC BY 4.0 for those who received them.
+
 ## 1.1 (October 2026)
 
 Connects the framework to the tools and to the other laws that meet AI.

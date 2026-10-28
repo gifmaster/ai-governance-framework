@@ -11,19 +11,19 @@
 
 ## 1. What the law asks
 
-Providers and deployers of AI systems must **take measures to support** a sufficient level of AI literacy among their staff and others who operate AI systems on their behalf, taking into account their knowledge, experience, education and training, and the context the systems are used in. *(EU AI Act Art. 4, as amended by the Digital Omnibus on AI, Regulation (EU) 2026/1744)*
+Providers and deployers of AI systems must **take measures to support** a sufficient level of AI literacy among their staff and others dealing with the operation and use of AI systems on their behalf, taking into account their technical knowledge, experience, education and training, the context the systems are used in, and the people they are used on. *(EU AI Act Art. 4, as amended by the Digital Omnibus on AI, Regulation (EU) 2026/1744)*
 
 What that means in practice:
 
 - It applies to every organisation that uses AI at work, whatever the risk tier. A meeting summary tool is enough.
-- It asks for measures, not a guaranteed level of knowledge for each person. The amended text says so explicitly.
+- It asks for measures, not a guaranteed level of knowledge for each person. That is the point of the amendment.
 - Measures should fit the role and the tools. One generic e-learning for everyone is weak evidence.
 - Keep a record. The law does not prescribe one, but without a record you cannot show what you did.
 
 Related duties, where they apply:
 
-- **High-risk AI systems:** deployers must give human oversight to people with the necessary competence, training and authority *(Art. 26(2), for Annex III systems from 2 December 2027)*.
-- **NIS2 entities:** management must follow cybersecurity training *(NIS2 Art. 20(2))*. **DORA financial entities:** the management body keeps up to date on ICT risk *(DORA Art. 5(4))*. Combine these with AI literacy where you can.
+- **High-risk AI systems:** deployers must assign human oversight to people who have the necessary competence, training and authority, and the necessary support *(Art. 26(2), for Annex III systems from 2 December 2027)*.
+- **NIS2 entities:** members of the management body must follow cybersecurity training *(NIS2 Art. 20(2), in Denmark the NIS2 Act)*. **DORA financial entities:** the management body keeps up to date on ICT risk, including by following specific training regularly *(DORA Art. 5(4))*. Combine these with AI literacy where you can.
 
 ## 2. Who learns what
 

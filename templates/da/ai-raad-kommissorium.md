@@ -43,10 +43,10 @@ Beslutninger om anvendelser med intensiteten **light** og **standard** er delege
 1. Nye anvendelser til beslutning
 2. Ændringer af eksisterende anvendelser (formål, data, leverandør, tilsynsniveau)
 3. Hændelser siden sidste møde
-4. Gennemgang af registeret: overskredne gennemgange, værktøjer fundet uden for registeret
+4. Gennemgang af registeret: gennemgange, der er forsinket, værktøjer fundet uden for registeret
 5. Nyt om regulering
-6. Status på oplæring (se [planen for AI-færdigheder](ai-kompetenceplan.md))
+6. Status på oplæring (se [planen for AI-færdigheder](ai-faerdighedsplan.md))
 
 ## Rapportering
 
-Formanden rapporterer til [direktionen] [to gange om året] om: antal anvendelser fordelt på intensitet, hændelser, overskredne gennemgange og kommende ændringer i reguleringen.
+Formanden rapporterer til [direktionen] [to gange om året] om: antal anvendelser fordelt på intensitet, hændelser, forsinkede gennemgange og kommende ændringer i reguleringen.

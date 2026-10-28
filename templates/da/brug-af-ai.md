@@ -1,6 +1,6 @@
 # Sådan bruger vi AI på arbejdet: [Organisationens navn]
 
-> **Sådan bruger du skabelonen.** Dette er en sides udgave af [AI-politikken](ai-politik.md) til alle medarbejdere. Udskift alt i [klammer], slet disse noter, og læg den, hvor folk faktisk kigger: intranettets forside, introduktionsmaterialet, Teams-kanalen. Hold den på en side.
+> **Sådan bruger du skabelonen.** Dette er udgaven på én side af [AI-politikken](ai-politik.md) til alle medarbejdere. Udskift alt i [klammer], slet disse noter, og læg den, hvor folk faktisk kigger: intranettets forside, introduktionsmaterialet, Teams-kanalen. Hold den på en side.
 
 | | |
 |---|---|
@@ -14,8 +14,8 @@
 1. Brug AI-værktøjerne på vores liste over godkendte værktøjer ([link]). Spørg, før du bruger noget andet.
 2. Læg aldrig [fortrolige] oplysninger, kundedata eller personoplysninger ind i et værktøj, der ikke er godkendt til det.
 3. Du står inde for det, du sender, offentliggør eller beslutter. AI kan lave udkastet. Du tjekker det.
-4. Fortæl folk, når de har med AI at gøre, der hvor vi har aftalt, at du skal.
-5. Hvis noget går galt, så sig det til [AI-ansvarlig] samme dag. Ingen kommer i problemer for at melde noget i god tro.
+4. Fortæl folk, at de har med AI at gøre, når vi har aftalt, at du skal.
+5. Hvis noget går galt, så sig det til [AI-ansvarlig] samme dag. Ingen får ballade for at melde noget i god tro.
 
 ## Grøn, gul, rød
 
@@ -29,7 +29,7 @@
 
 - **Er det rigtigt?** AI-værktøjer kan tage fejl med stor selvsikkerhed. Tjek tal, navne, citater, kilder og juridiske pointer.
 - **Er det rimeligt?** Hold øje med resultater, der behandler grupper af mennesker forskelligt uden grund.
-- **Må vi bruge det?** Udgiv ikke andres tekst, billeder eller kode som vores egen.
+- **Må vi bruge det?** Udgiv ikke andres tekst, billeder eller kode som vores eget.
 - **Ville jeg skrive under på det?** Står dit navn på, er det dit ansvar.
 
 ## Når vi fortæller om AI
@@ -43,4 +43,4 @@ Udfyld [anmodningen om en ny AI-anvendelse](ai-anmodning.md), og send den til [A
 
 ## Oplæring
 
-Alle gennemfører [introduktionen til AI] inden for [X uger] efter start. Medarbejdere, der bruger AI meget, eller som tjekker et AI-systems output som en del af jobbet, får ekstra oplæring. Se [planen for AI-færdigheder](ai-kompetenceplan.md).
+Alle gennemfører [introduktionen til AI] inden for [X uger] efter start. Medarbejdere, der bruger AI meget, eller som tjekker et AI-systems output som en del af jobbet, får ekstra oplæring. Se [planen for AI-færdigheder](ai-faerdighedsplan.md).

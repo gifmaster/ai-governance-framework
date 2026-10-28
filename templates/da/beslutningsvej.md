@@ -9,7 +9,7 @@ Den AI-ansvarlige læser anmodningen og svarer på tre spørgsmål.
 | Spørgsmål | Hvis ja |
 |---|---|
 | Er det et godkendt værktøj brugt til et godkendt formål? | Der skal ikke træffes en ny beslutning. Giv besked og luk sagen. |
-| Er der sat kryds under *Hurtig screening*? | Klassificér grundigt med [EU AI Act Risk Check](https://ai-act-risk-check.streamlit.app), før der træffes en beslutning. Aldrig hurtigt spor. |
+| Er der sat kryds under *Hurtig screening*? | Klassificér grundigt med [EU AI Act Risk Check](https://ai-act-risk-check.streamlit.app), før der træffes en beslutning. Den må aldrig gå hurtigt igennem. |
 | Mangler der oplysninger, der kan ændre svaret? | Sæt sagen **i bero**, og bed om oplysningerne. Fristen står stille, til svaret kommer. |
 
 ## 2. Klassificér og fastsæt intensiteten
@@ -41,7 +41,7 @@ Vælg dem, der passer. Skriv dem i beslutningen, så det er tydeligt, hvad der s
 
 - Kun [disse typer data] må bruges. Ingen følsomme personoplysninger.
 - En person gennemgår hvert resultat, før det forlader organisationen.
-- Brugerne gennemfører [modul] i [planen for AI-færdigheder](ai-kompetenceplan.md), før de får adgang.
+- Brugerne gennemfører [modul] i [planen for AI-færdigheder](ai-faerdighedsplan.md), før de får adgang.
 - Databehandleraftalen er underskrevet, og kontrakten er tjekket med [AI Contract Clause Checker](https://contract-clause-checker.streamlit.app) før idriftsættelse.
 - De berørte får at vide, at AI indgår.
 - Brugen begrænses til [team eller antal brugere] indtil gennemgangen den [dato].

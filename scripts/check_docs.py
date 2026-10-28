@@ -107,7 +107,7 @@ DANISH = {
     "ai-raad-kommissorium.md": "ai-council-charter.md",
     "ai-anmodning.md": "use-case-intake.md",
     "beslutningsvej.md": "intake-decision.md",
-    "ai-kompetenceplan.md": "ai-literacy-plan.md",
+    "ai-faerdighedsplan.md": "ai-literacy-plan.md",
 }
 
 

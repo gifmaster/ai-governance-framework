@@ -56,7 +56,7 @@ Sæt kryds ved alt, der passer. Ét kryds betyder, at den AI-ansvarlige kigger n
 | Risikoniveau efter AI-forordningen (eu_ai_act_tier) | prohibited / high / limited / minimal / out_of_scope. Tjek med [EU AI Act Risk Check](https://ai-act-risk-check.streamlit.app). |
 | Governance-intensitet (governance_intensity) | light / standard / enhanced / strict / redesign / stop |
 | Konsekvensanalyse efter GDPR (dpia_required) | yes / no |
-| Konsekvensanalyse for grundlæggende rettigheder (fria_required) | yes / no |
+| Konsekvensanalyse vedrørende grundlæggende rettigheder (fria_required) | yes / no |
 | Godkendt af (approved_by) | Navn eller "AI-rådet" |
 | Godkendt den (approved_on) | Dato |
 | Næste gennemgang (next_review) | Dato |

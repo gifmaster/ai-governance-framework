@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- New page: what this framework adds to ISO/IEC 42001 and the NIST AI RMF, with crosswalks and honest limits
+
 ## License change (October 2026)
 
 - License changed from CC BY 4.0 to CC BY-NC-SA 4.0: free to use inside your own organisation, permission needed for use in paid services or products. Earlier versions stay under CC BY 4.0 for those who received them.

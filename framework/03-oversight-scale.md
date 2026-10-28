@@ -25,10 +25,15 @@ The level is a property of **how the AI is used**, not of the tool. The same lan
 | Named human reviewer for outputs | | ✓ | ✓ | ✓ |
 | Logging of AI outputs and human decisions | | ✓ | ✓ | ✓ |
 | Defined limits the AI may not cross | | | ✓ | ✓ |
+| Tool and data access limited to what the task needs | | | ✓ | ✓ |
+| Written list of approval points for actions that cannot be undone | | | ✓ | ✓ |
+| Usage and cost limits (budget, rate limit) | | | ✓ | ✓ |
 | Sampling and exception review, with a set frequency | | | ✓ | ✓ |
 | Stop switch and fallback to manual process | | | ✓ | ✓ |
 | Outcome monitoring with alert thresholds | | | | ✓ |
 | Council approval before go-live | | | | ✓ |
+
+For AI agents that use tools and act on systems, see [agent-level controls](../docs/agent-level-controls.md), which maps these controls to the AI Act, GDPR, NIS2 and DORA.
 
 ## Governance intensity
 

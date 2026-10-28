@@ -17,6 +17,7 @@ Most AI governance material is written for large enterprises with compliance dep
 | **[Agile playbook](playbook/agile-governance.md)** | How to run AI governance inside Scrum and SAFe, instead of as a gate at the end |
 | **[Templates](templates/)** | AI policy, AI Council charter, use case intake, AI register, AI system record, incident report, backlog items |
 | **[What this adds to ISO/IEC 42001 and the NIST AI RMF](docs/what-this-adds.md)** | An honest comparison, with crosswalks to both |
+| **[Agent-level controls](docs/agent-level-controls.md)** | Regulation first, then controls: what an AI agent that uses tools needs, and which law (if any) asks for each control |
 | **[Getting started](docs/getting-started.md)** | A 90-day plan from "we use AI" to "we govern AI" |
 
 ## The framework in one page

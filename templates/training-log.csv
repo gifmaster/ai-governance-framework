@@ -1,0 +1,4 @@
+entry_id,learner_group,audience,people,module,use_case_id,delivered_on,delivered_by,format,evidence,next_refresh
+T-001,all_staff,All staff,42,AI basics and our AI policy,,2026-09-15,AI Governance Lead,Live session 60 min,Attendance list in HR folder,2027-09-15
+T-002,frequent_user,Customer Service team,9,Using the website chatbot back office,UC-002,2026-09-20,Example Vendor B,Workshop 90 min,Slides v1.2 and attendance list,2027-09-20
+T-003,overseer,Shift planners,3,Reviewing and overriding the scheduling tool,UC-010,2026-10-01,Use case owner,Briefing 2 hours,Signed briefing note,2027-10-01

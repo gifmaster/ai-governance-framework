@@ -47,18 +47,22 @@ In addition, employees may not *(organisation's own rules)*:
 | If you want to... | Do this |
 |---|---|
 | Use an approved AI tool for its approved purpose | Go ahead. Follow the tool guidance. |
-| Use AI for a new purpose, or a new AI tool | Submit an [intake form](use-case-intake.md) to [AI Governance Lead]. Most requests are answered within [5] working days. |
+| Use AI for a new purpose, or a new AI tool | Submit an [intake form](use-case-intake.md) to [AI Governance Lead]. Most requests are answered within [5] working days ([how requests are decided](intake-decision.md)). |
 | Use AI in hiring, performance, credit, insurance, or decisions about access to services | Always submit an intake form first. These are likely high-risk under the EU AI Act. |
 
 The list of approved tools is kept at [link].
 
+A one-page summary of these rules for all staff is in [Using AI at work](acceptable-use.md).
+
 ## 6. AI literacy *(Tier 1, Art. 4)*
 
-Everyone who uses AI at work gets training suited to their role:
+We take measures to support the AI literacy of everyone who uses AI on our behalf, matched to their role. Everyone who uses AI at work gets training suited to their role:
 
 - **All staff:** what AI can and cannot do, this policy, data rules, how to report problems. [Within X weeks of starting.]
 - **Frequent users:** limits and failure modes of the tools they use.
 - **Human overseers:** how to review outputs, when to intervene, how to stop the system.
+
+Details are in our [AI literacy plan](ai-literacy-plan.md), and every session is recorded in our [training log](training-log.csv).
 
 ## 7. Roles
 

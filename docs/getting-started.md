@@ -18,10 +18,10 @@ A realistic plan for a small or mid-sized organisation that uses AI but has not 
 
 | Step | Output | Template |
 |---|---|---|
-| Write and approve the AI policy | Approved policy, published internally | [ai-policy.md](../templates/ai-policy.md) |
+| Write and approve the AI policy, plus a one-page version for all staff | Approved policy, published internally | [ai-policy.md](../templates/ai-policy.md), [acceptable-use.md](../templates/acceptable-use.md) |
 | Set up the AI Council, even if it is three people | Charter and first meeting | [ai-council-charter.md](../templates/ai-council-charter.md) |
 | Agree roles | RACI adapted to your organisation | [Roles and RACI](../framework/05-roles-and-raci.md) |
-| Start AI literacy training for all staff (Art. 4) | Training plan, first sessions held | |
+| Start AI literacy training for all staff (Art. 4) | Training plan, first sessions held and logged | [ai-literacy-plan.md](../templates/ai-literacy-plan.md), [training-log.csv](../templates/training-log.csv) |
 | Add disclosures where Art. 50 applies (chatbots, generated content) | Notices in place | |
 | Review the contracts for your most-used AI tools (with the DORA pack if you are a financial entity) | Contract gaps listed, vendor follow-up started | [AI Contract Clause Checker](https://contract-clause-checker.streamlit.app) |
 
@@ -31,7 +31,7 @@ A realistic plan for a small or mid-sized organisation that uses AI but has not 
 
 | Step | Output | Template |
 |---|---|---|
-| Put the intake form into the procurement and project process | No new AI without an intake | [use-case-intake.md](../templates/use-case-intake.md) |
+| Put the intake form into the procurement and project process, with answer times people can rely on | No new AI without an intake | [use-case-intake.md](../templates/use-case-intake.md), [intake-decision.md](../templates/intake-decision.md) |
 | Create system records for enhanced and strict use cases | Evidence in one place | [ai-system-record.md](../templates/ai-system-record.md) |
 | Share the incident process, covering every reporting duty that applies to you | Staff know how to report, and who reports what | [incident-report.md](../templates/incident-report.md), Incident Clock in the [Regulation Navigator](https://regulation-navigator.streamlit.app) |
 | If you have delivery teams: add AI items to the Definition of Done | Governance inside the sprint | [Agile playbook](../playbook/agile-governance.md) |

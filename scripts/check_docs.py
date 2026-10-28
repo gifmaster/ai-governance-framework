@@ -4,6 +4,8 @@
 2. The AI register CSV parses, and its columns match the field names in the intake form.
 3. Register values stick to the allowed vocabularies used in the framework.
 4. No em dashes (house style).
+5. The training log CSV has the agreed columns and values.
+6. Every Danish template in templates/da has an English counterpart, and links to it from the Danish index.
 
 Run locally:  python scripts/check_docs.py
 """
@@ -94,9 +96,63 @@ def check_style() -> None:
                 errors.append(f"{f.relative_to(ROOT)}:{n}: em dash, use a hyphen or rewrite")
 
 
+TRAINING_COLUMNS = ["entry_id", "learner_group", "audience", "people", "module", "use_case_id",
+                    "delivered_on", "delivered_by", "format", "evidence", "next_refresh"]
+LEARNER_GROUPS = {"all_staff", "frequent_user", "overseer", "management", "governance"}
+
+# Danish template -> English counterpart
+DANISH = {
+    "ai-politik.md": "ai-policy.md",
+    "brug-af-ai.md": "acceptable-use.md",
+    "ai-raad-kommissorium.md": "ai-council-charter.md",
+    "ai-anmodning.md": "use-case-intake.md",
+    "beslutningsvej.md": "intake-decision.md",
+    "ai-kompetenceplan.md": "ai-literacy-plan.md",
+}
+
+
+def check_training_log() -> None:
+    log = ROOT / "templates" / "training-log.csv"
+    with log.open(encoding="utf-8", newline="") as fh:
+        reader = csv.DictReader(fh)
+        rows = list(reader)
+        if reader.fieldnames != TRAINING_COLUMNS:
+            errors.append(f"training-log.csv columns {reader.fieldnames} != {TRAINING_COLUMNS}")
+    for i, row in enumerate(rows, start=2):
+        if None in row:
+            errors.append(f"training-log.csv line {i}: too many values")
+        group = (row.get("learner_group") or "").strip()
+        if group not in LEARNER_GROUPS:
+            errors.append(f"training-log.csv line {i}: learner_group='{group}' not in {sorted(LEARNER_GROUPS)}")
+        for col in ("delivered_on", "next_refresh"):
+            value = (row.get(col) or "").strip()
+            if value and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+                errors.append(f"training-log.csv line {i}: {col}='{value}' is not YYYY-MM-DD")
+
+
+def check_danish() -> None:
+    da = ROOT / "templates" / "da"
+    index = (da / "README.md").read_text(encoding="utf-8")
+    for f in sorted(da.glob("*.md")):
+        if f.name == "README.md":
+            continue
+        en = DANISH.get(f.name)
+        if not en:
+            errors.append(f"templates/da/{f.name}: no English counterpart listed in check_docs.DANISH")
+        elif not (ROOT / "templates" / en).exists():
+            errors.append(f"templates/da/{f.name}: English counterpart {en} is missing")
+        if f"]({f.name})" not in index:
+            errors.append(f"templates/da/README.md does not link {f.name}")
+    for da_name in DANISH:
+        if not (da / da_name).exists():
+            errors.append(f"templates/da/{da_name} is listed but missing")
+
+
 check_links()
 check_register()
 check_style()
+check_training_log()
+check_danish()
 
 if errors:
     print("\n".join(errors))

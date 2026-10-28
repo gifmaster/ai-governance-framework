@@ -15,7 +15,7 @@ Most AI governance material is written for large enterprises with compliance dep
 |---|---|
 | **[Framework](framework/)** | The model: principles, five dimensions, the AI Oversight Scale, the use case lifecycle, roles and RACI, and a regulatory map covering the AI Act, GDPR, NIS2 and DORA, with overlaps and incident deadlines |
 | **[Agile playbook](playbook/agile-governance.md)** | How to run AI governance inside Scrum and SAFe, instead of as a gate at the end |
-| **[Templates](templates/)** | AI policy, AI Council charter, use case intake, AI register, AI system record, incident report, backlog items |
+| **[Templates](templates/)** | AI policy, staff rules for using AI, AI Council charter, use case intake and decision path, AI literacy plan and training log, AI register, AI system record, incident report, backlog items. The operating templates are also [in Danish](templates/da/README.md). |
 | **[What this adds to ISO/IEC 42001 and the NIST AI RMF](docs/what-this-adds.md)** | An honest comparison, with crosswalks to both |
 | **[Agent-level controls](docs/agent-level-controls.md)** | Regulation first, then controls: what an AI agent that uses tools needs, and which law (if any) asks for each control |
 | **[Getting started](docs/getting-started.md)** | A 90-day plan from "we use AI" to "we govern AI" |
@@ -84,7 +84,9 @@ Danske myndigheder for AI-forordningen er Digitaliseringsstyrelsen, Datatilsynet
 
 Rammen hænger sammen med fire gratis værktøjer: EU AI Act Risk Check, AI Contract Clause Checker, AI Use Case Register og Regulation Navigator.
 
-Materialet er på engelsk og må frit bruges og tilpasses i egen organisation med kildeangivelse. Brug i betalte ydelser eller produkter, fx rådgivning, kurser, audits eller software, kræver skriftlig tilladelse.
+Skabelonerne til den daglige drift findes også [på dansk](templates/da/README.md): AI-politik, regler for brug af AI, kommissorium for AI-rådet, anmodning om en ny AI-anvendelse, beslutningsvej og plan for AI-færdigheder (art. 4).
+
+Materialet er ellers på engelsk og må frit bruges og tilpasses i egen organisation med kildeangivelse. Brug i betalte ydelser eller produkter, fx rådgivning, kurser, audits eller software, kræver skriftlig tilladelse.
 
 ## About
 

@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- New templates: *Using AI at work* (one page of staff rules: green, amber, red), *How intake requests are decided* (triage, who decides at each intensity, five possible answers, common conditions), *AI literacy plan* (role-based, written to Art. 4 as amended by Regulation (EU) 2026/1744: take measures to support, no guaranteed level) and *training log* (CSV, opens in the AI Use Case Register)
+- Danish versions in templates/da: AI-politik, Sådan bruger vi AI på arbejdet, Kommissorium for AI-rådet, Anmodning om en ny AI-anvendelse, Sådan behandles anmodninger, Plan for AI-færdigheder
+- AI policy: section 6 uses the amended Art. 4 wording and links the literacy plan and training log; section 5 links the decision path
+- Checks: training log columns and values, and every Danish template has an English counterpart
 - New page: agent-level controls, mapping agent controls (registry, permissions, approval points, memory and retention, logging, stop switch, vendors, usage and cost limits) to the AI Act, GDPR, NIS2 and DORA, marking what is law and what is practice
 - Oversight scale: three controls added at levels 4 and 5 (tool and data access, approval points, usage and cost limits). The governance intensity matrix is unchanged
 - New page: what this framework adds to ISO/IEC 42001 and the NIST AI RMF, with crosswalks and honest limits

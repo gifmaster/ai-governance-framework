@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- New page: agent-level controls, mapping agent controls (registry, permissions, approval points, memory and retention, logging, stop switch, vendors, usage and cost limits) to the AI Act, GDPR, NIS2 and DORA, marking what is law and what is practice
+- Oversight scale: three controls added at levels 4 and 5 (tool and data access, approval points, usage and cost limits). The governance intensity matrix is unchanged
 - New page: what this framework adds to ISO/IEC 42001 and the NIST AI RMF, with crosswalks and honest limits
 
 ## License change (October 2026)
